@@ -4,7 +4,7 @@ on:
   #   - main
   #   - release/*
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
     
