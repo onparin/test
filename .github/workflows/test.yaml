@@ -19,4 +19,5 @@ jobs:
       - run: |
             echo "Hi, world!"
             echo "World Hi"
+    needs: hello-world
       
